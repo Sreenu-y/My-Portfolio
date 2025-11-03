@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
@@ -30,12 +31,16 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <Button size="lg" className="group">
-              View My Work
-              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            <Button size="lg" className="group" asChild>
+              <Link to="/projects">
+                View My Work
+                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </Link>
             </Button>
-            <Button size="lg" variant="outline">
-              Get In Touch
+            <Button size="lg" variant="outline" asChild>
+              <Link to="/contact">
+                Get In Touch
+              </Link>
             </Button>
           </div>
           
