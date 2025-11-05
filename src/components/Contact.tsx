@@ -4,16 +4,16 @@ import { Mail, MapPin, Phone, Download, Linkedin, Github } from "lucide-react";
 
 const Contact = () => {
   const handleDownloadResume = () => {
-    // This will trigger a download - you'll need to add your actual resume file to public folder
-    const link = document.createElement('a');
-    link.href = '/resume.pdf'; // Add your resume.pdf to the public folder
-    link.download = 'Srinu_Yelesam_Resume.pdf';
+    const link = document.createElement("a");
+    link.href = "/resume.pdf"; // Make sure resume.pdf is inside the public folder
+    link.download = "Srinu_Yelesam_Resume.pdf";
     link.click();
   };
 
   return (
     <section id="contact" className="py-24 px-4 bg-muted/30">
       <div className="container max-w-6xl mx-auto">
+        {/* Header */}
         <div className="text-center mb-16 space-y-4">
           <h2 className="font-display text-4xl md:text-5xl font-bold">
             Get In Touch
@@ -23,8 +23,9 @@ const Contact = () => {
           </p>
         </div>
 
+        {/* Grid Layout */}
         <div className="grid md:grid-cols-2 gap-12">
-          {/* Contact Info */}
+          {/* Left Section - Contact Info */}
           <div className="space-y-8">
             <div>
               <h3 className="font-display text-2xl font-semibold mb-6">
@@ -39,10 +40,10 @@ const Contact = () => {
                   <div>
                     <p className="font-medium mb-1">Email</p>
                     <a
-                      href="mailto:srinuyelesam@gmail.com"
+                      href="mailto:srinuyelesam123@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      srinuyelesam@gmail.com
+                      srinuyelesam123@gmail.com
                     </a>
                   </div>
                 </div>
@@ -79,18 +80,20 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Resume Download & Social Links */}
+          {/* Right Section - Resume + Social Links */}
           <div className="space-y-6">
-            <Card className="bg-card border-border">
+            <Card className="bg-card border-border transition-transform hover:scale-[1.01]">
               <CardContent className="p-8 space-y-6">
+                {/* Resume Download */}
                 <div className="text-center space-y-4">
                   <h3 className="font-display text-2xl font-semibold">
                     Download Resume
                   </h3>
                   <p className="text-muted-foreground">
-                    Get a copy of my resume to learn more about my experience and skills
+                    Get a copy of my resume to learn more about my experience and
+                    skills.
                   </p>
-                  <Button 
+                  <Button
                     onClick={handleDownloadResume}
                     className="w-full"
                     size="lg"
@@ -100,30 +103,38 @@ const Contact = () => {
                   </Button>
                 </div>
 
+                {/* Social Links */}
                 <div className="pt-6 border-t border-border">
-                  <h4 className="font-medium mb-4 text-center">Connect With Me</h4>
+                  <h4 className="font-medium mb-4 text-center">
+                    Connect With Me
+                  </h4>
                   <div className="flex justify-center gap-4">
+                    {/* LinkedIn */}
                     <a
-                      href="https://linkedin.com/in/yourprofile"
+                      href="https://linkedin.com/in/sreenu-yelesam"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
+                      className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 hover:scale-110 transition-transform duration-200"
                       aria-label="LinkedIn"
                     >
                       <Linkedin className="h-5 w-5 text-primary" />
                     </a>
+
+                    {/* GitHub */}
                     <a
-                      href="https://github.com/yourprofile"
+                      href="https://github.com/Sreenu-y"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
+                      className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 hover:scale-110 transition-transform duration-200"
                       aria-label="GitHub"
                     >
                       <Github className="h-5 w-5 text-primary" />
                     </a>
+
+                    {/* Email */}
                     <a
-                      href="mailto:srinuyelesam@gmail.com"
-                      className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
+                      href="mailto:srinuyelesam123@gmail.com"
+                      className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 hover:scale-110 transition-transform duration-200"
                       aria-label="Email"
                     >
                       <Mail className="h-5 w-5 text-primary" />
