@@ -26,7 +26,7 @@ const About = () => {
         <div className="text-center mb-16 space-y-4">
           <h2 className="font-display text-4xl md:text-5xl font-bold">About Me</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Passionate about building digital products that make a difference
+            Web Developer | MERN Stack | DSA with Java
           </p>
         </div>
         
@@ -50,9 +50,9 @@ const About = () => {
         
         <div className="mt-16 text-center">
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            With years of experience in web development and design, I specialize in creating seamless 
-            digital experiences. I'm constantly exploring new technologies and design trends to deliver 
-            innovative solutions that exceed expectations.
+            As a Web Developer specializing in the MERN Stack, I build full-stack applications with 
+            modern technologies. With strong foundations in Data Structures and Algorithms using Java, 
+            I create efficient, scalable solutions that deliver exceptional user experiences.
           </p>
         </div>
       </div>
