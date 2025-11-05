@@ -42,7 +42,7 @@ const Footer = () => {
               <Instagram className="h-5 w-5" />
             </a>
             <a 
-              href="mailto:srinuyelesam@gmail.com"
+              href="mailto:srinuyelesam123@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Email"
             >
