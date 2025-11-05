@@ -11,26 +11,18 @@ const Projects = () => {
   const projectsPerPage = 3;
   const projects = [
     {
-      title: "Analytics Dashboard",
-      description: "A comprehensive analytics platform with real-time data visualization and reporting capabilities.",
+      title: "Learnify",
+      description: "A comprehensive learning platform where instructors can sell courses and students can purchase and learn from a wide variety of educational content.",
       image: project1,
-      tags: ["React", "TypeScript", "D3.js"],
+      tags: ["React", "Node.js", "MongoDB", "Express"],
       github: "#",
       live: "#"
     },
     {
-      title: "E-Commerce Platform",
-      description: "Modern online shopping experience with seamless checkout and inventory management.",
+      title: "Job-Hunt",
+      description: "Professional job portal connecting employers and job seekers. Post job openings or apply to opportunities that match your skills.",
       image: project2,
-      tags: ["Next.js", "Stripe", "PostgreSQL"],
-      github: "#",
-      live: "#"
-    },
-    {
-      title: "Social Media App",
-      description: "Feature-rich social platform with real-time messaging and content sharing.",
-      image: project3,
-      tags: ["React Native", "Firebase", "Redux"],
+      tags: ["MERN Stack", "Redux", "JWT", "REST API"],
       github: "#",
       live: "#"
     }
