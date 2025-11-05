@@ -5,8 +5,8 @@ import { Mail, MapPin, Phone, Download, Linkedin, Github } from "lucide-react";
 const Contact = () => {
   const handleDownloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/resume.pdf"; // Make sure resume.pdf is inside the public folder
-    link.download = "Srinu_Yelesam_Resume.pdf";
+    link.href = "/SreenuYelesam_Resume.pdf"; // Make sure resume.pdf is inside the public folder
+    link.download = "SreenuYelesam_Resume.pdf";
     link.click();
   };
 
