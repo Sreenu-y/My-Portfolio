@@ -22,7 +22,7 @@ const Hero = () => {
           <div className="space-y-4">
             <p className="text-2xl md:text-3xl text-muted-foreground flex items-center justify-center gap-2">
               Hi there 
-              <span className="inline-block animate-[wave_1s_ease-in-out_infinite] origin-[70%_70%]">
+              <span className="inline-block animate-[wave_2.5s_ease-in-out_infinite] origin-[70%_70%]">
                 👋🏻
               </span>
             </p>
