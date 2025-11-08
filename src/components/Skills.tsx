@@ -4,7 +4,7 @@ const Skills = () => {
   const skillCategories = [
     {
       category: "MERN Stack",
-      skills: ["MongoDB", "Express.js", "React", "Node.js", "TypeScript"]
+      skills: ["React", "Next.js", "Node.js", "Express.js", "JavaScript", "TypeScript", "MongoDB"]
     },
     {
       category: "DSA & Programming",
