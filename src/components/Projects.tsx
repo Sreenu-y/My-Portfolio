@@ -25,7 +25,7 @@ const Projects = () => {
       image: project2,
       tags: ["MERN Stack", "Redux", "JWT", "REST API"],
       github: "https://github.com/Sreenu-y/JobHunt",
-      live: "#"
+      live: "https://learnify-neon-eight.vercel.app/"
     }
   ];
 
