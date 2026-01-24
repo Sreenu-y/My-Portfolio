@@ -5,12 +5,21 @@ import { useState } from "react";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
+import projectTalentIQ from "@/assets/project-talentiq.jpg";
 
 const Projects = () => {
   // 
   const [currentPage, setCurrentPage] = useState(1);
   const projectsPerPage = 3;
   const projects = [
+    {
+      title: "Talent IQ",
+      description: "Real-time technical interview platform with VSCode-powered code editor, 1-on-1 video rooms, live coding practice with auto-evaluation, screen sharing, and secure isolated code execution.",
+      image: projectTalentIQ,
+      tags: ["React", "Clerk Auth", "Stream", "Convex", "Inngest"],
+      github: "https://github.com/Sreenu-y/TalentIQ",
+      live: ""
+    },
     {
       title: "Learnify",
       description: "A comprehensive learning platform where instructors can sell courses and students can purchase and learn from a wide variety of educational content.",
