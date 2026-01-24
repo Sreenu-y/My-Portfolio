@@ -16,9 +16,9 @@ const Projects = () => {
       title: "Talent IQ",
       description: "Real-time technical interview platform with VSCode-powered code editor, 1-on-1 video rooms, live coding practice with auto-evaluation, screen sharing, and secure isolated code execution.",
       image: projectTalentIQ,
-      tags: ["React", "Clerk Auth", "Stream", "Convex", "Inngest"],
+      tags: ["React", "Clerk Auth", "Stream", "NodeJS", "Inngest", "MongoDB"],
       github: "https://github.com/Sreenu-y/TalentIQ",
-      live: ""
+      live: "https://talent-iq-53ev.onrender.com/"
     },
     {
       title: "Learnify",
