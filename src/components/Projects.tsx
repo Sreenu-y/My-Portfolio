@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
-import { useState } from "react";
+
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
@@ -9,8 +9,7 @@ import projectTalentIQ from "@/assets/project-talentiq.jpg";
 import projectSensai from "@/assets/project-sensai.jpg";
 
 const Projects = () => {
-  // 
-  const [visibleCount, setVisibleCount] = useState(3);
+  //
   const projects = [
     {
       title: "Sensai - AI Career Coach",
@@ -46,8 +45,6 @@ const Projects = () => {
     }
   ];
 
-  const currentProjects = projects.slice(0, visibleCount);
-  const hasMore = visibleCount < projects.length;
 
   return (
     <section id="projects" className="py-24 px-4">
@@ -60,7 +57,7 @@ const Projects = () => {
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {currentProjects.map((project, index) => (
+          {projects.map((project, index) => (
             <Card 
               key={index}
               className="group overflow-hidden bg-card border-border hover:border-primary/50 transition-all duration-300"
@@ -105,17 +102,6 @@ const Projects = () => {
           ))}
         </div>
         
-        {hasMore && (
-          <div className="flex justify-center mt-12">
-            <Button
-              variant="outline"
-              size="lg"
-              onClick={() => setVisibleCount((prev) => prev + 3)}
-            >
-              Load More
-            </Button>
-          </div>
-        )}
       </div>
     </section>
   );
