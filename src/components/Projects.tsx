@@ -15,7 +15,7 @@ const Projects = () => {
       title: "Sensai - AI Career Coach",
       description: "AI-powered career platform with personalized roadmaps, skill-gap analysis, resume & cover letter generation, role-based interview prep with AI feedback, and an interactive career insights dashboard.",
       image: projectSensai,
-      tags: ["Next.js", "Clerk Auth", "Prisma", "NeonDB", "Gemini AI"],
+      tags: ["Next.js", "Clerk Auth", "Prisma", "NeonDB", "Gemini AI", "Inngest"],
       github: "https://github.com/Sreenu-y/SensAI--AI-Career-Coach",
       live: "https://sensai-ai-career-coach45.vercel.app/"
     },
@@ -31,7 +31,7 @@ const Projects = () => {
       title: "Learnify",
       description: "A comprehensive learning platform where instructors can sell courses and students can purchase and learn from a wide variety of educational content.",
       image: project1,
-      tags: ["React", "Node.js", "MongoDB", "Express"],
+      tags: ["React", "Node.js", "MongoDB", "Express", "Stripe", "JWT", "RTK-Query"],
       github: "https://github.com/Sreenu-y/Learnify",
       live: "https://learnify-neon-eight.vercel.app/"
     },
