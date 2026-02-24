@@ -6,12 +6,21 @@ import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 import projectTalentIQ from "@/assets/project-talentiq.jpg";
+import projectSensai from "@/assets/project-sensai.jpg";
 
 const Projects = () => {
   // 
   const [currentPage, setCurrentPage] = useState(1);
   const projectsPerPage = 3;
   const projects = [
+    {
+      title: "Sensai - AI Career Coach",
+      description: "AI-powered career platform with personalized roadmaps, skill-gap analysis, resume & cover letter generation, role-based interview prep with AI feedback, and an interactive career insights dashboard.",
+      image: projectSensai,
+      tags: ["Next.js", "Clerk Auth", "Prisma", "NeonDB", "Gemini AI"],
+      github: "https://github.com/Sreenu-y/Sensai-AI-Career-Coach",
+      live: ""
+    },
     {
       title: "Talent IQ",
       description: "Real-time technical interview platform with VSCode-powered code editor, 1-on-1 video rooms, live coding practice with auto-evaluation, screen sharing, and secure isolated code execution.",
