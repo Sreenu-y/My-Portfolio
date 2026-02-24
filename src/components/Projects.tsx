@@ -16,8 +16,8 @@ const Projects = () => {
       description: "AI-powered career platform with personalized roadmaps, skill-gap analysis, resume & cover letter generation, role-based interview prep with AI feedback, and an interactive career insights dashboard.",
       image: projectSensai,
       tags: ["Next.js", "Clerk Auth", "Prisma", "NeonDB", "Gemini AI"],
-      github: "https://github.com/Sreenu-y/Sensai-AI-Career-Coach",
-      live: ""
+      github: "https://github.com/Sreenu-y/SensAI--AI-Career-Coach",
+      live: "https://sensai-ai-career-coach45.vercel.app/"
     },
     {
       title: "Talent IQ",
