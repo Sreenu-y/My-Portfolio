@@ -56,7 +56,7 @@ const Projects = () => {
     {
       title: "Waste2Farm",
       description: "Circular economy marketplace connecting organic waste generators with farmers, compost companies, and biogas plants. Features real-time logistics, microservices architecture, and mobile-first design.",
-      image: projectWaste2Farm,
+      image: projectWaste2Form,
       tags: ["React Native", "Node.js", "Firebase", "MongoDB", "Redis", "Expo Router"],
       github: "https://github.com/Sreenu-y/waste2farm",
       live: "https://github.com/Sreenu-y/waste2farm"
