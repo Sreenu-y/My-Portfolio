@@ -44,6 +44,22 @@ const Projects = () => {
       tags: ["MERN Stack", "Redux", "JWT", "REST API"],
       github: "https://github.com/Sreenu-y/JobHunt",
       live: "https://jobhunt-ebsr.onrender.com/"
+    },
+    {
+      title: "SecureFlow",
+      description: "Next-generation fraud prevention platform with zero-latency security layer, real-time transaction monitoring using ML pipelines, random forest models for anomaly detection, and WebSocket-powered live alerts.",
+      image: projectSecureFlow,
+      tags: ["Next.js", "FastAPI", "MongoDB", "WebSockets", "Random Forest", "Clerk Auth"],
+      github: "https://github.com/Sreenu-y/SecureFlow",
+      live: "#"
+    },
+    {
+      title: "Waste2Form",
+      description: "Circular economy marketplace connecting organic waste generators with farmers, compost companies, and biogas plants. Features real-time logistics, microservices architecture, and mobile-first design.",
+      image: projectWaste2Form,
+      tags: ["React Native", "Node.js", "Firebase", "MongoDB", "Redis", "Expo Router"],
+      github: "https://github.com/Sreenu-y/Waste2Form",
+      live: "#"
     }
   ];
 
