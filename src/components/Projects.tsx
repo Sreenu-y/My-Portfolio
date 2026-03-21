@@ -50,16 +50,16 @@ const Projects = () => {
       description: "Next-generation fraud prevention platform with zero-latency security layer, real-time transaction monitoring using ML pipelines, random forest models for anomaly detection, and WebSocket-powered live alerts.",
       image: projectSecureFlow,
       tags: ["Next.js", "FastAPI", "MongoDB", "WebSockets", "Random Forest", "Clerk Auth"],
-      github: "https://github.com/Sreenu-y/SecureFlow",
-      live: "#"
+      github: "https://github.com/Sreenu-y/Secure-Flow",
+      live: "https://github.com/Sreenu-y/Secure-Flow"
     },
     {
-      title: "Waste2Form",
+      title: "Waste2Farm",
       description: "Circular economy marketplace connecting organic waste generators with farmers, compost companies, and biogas plants. Features real-time logistics, microservices architecture, and mobile-first design.",
-      image: projectWaste2Form,
+      image: projectWaste2Farm,
       tags: ["React Native", "Node.js", "Firebase", "MongoDB", "Redis", "Expo Router"],
-      github: "https://github.com/Sreenu-y/Waste2Form",
-      live: "#"
+      github: "https://github.com/Sreenu-y/waste2farm",
+      live: "https://github.com/Sreenu-y/waste2farm"
     }
   ];
 
