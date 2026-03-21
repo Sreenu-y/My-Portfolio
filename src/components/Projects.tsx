@@ -7,6 +7,8 @@ import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 import projectTalentIQ from "@/assets/project-talentiq.jpg";
 import projectSensai from "@/assets/project-sensai.jpg";
+import projectSecureFlow from "@/assets/project-secureflow.jpg";
+import projectWaste2Form from "@/assets/project-waste2form.jpg";
 
 const Projects = () => {
   //
