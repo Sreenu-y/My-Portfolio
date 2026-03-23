@@ -1,22 +1,12 @@
-import { Button } from "@/components/ui/button";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroBg from "@/assets/hero-bg.jpg";
+import { WebGLShader } from "@/components/ui/web-gl-shader";
+import { LiquidButton } from "@/components/ui/liquid-glass-button";
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div 
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: `url(${heroBg})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        {/*  */}
-        <div className="absolute inset-0 bg-gradient-to-br from-background/95 via-background/90 to-background/95" />
-      </div>
+      <WebGLShader />
       
       <div className="container relative z-10 px-4 py-32">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-1000">
@@ -42,19 +32,27 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
             Building full-stack web applications with MongoDB, Express, React, and Node.js. Strong foundation in Data Structures & Algorithms with Java.
           </p>
+
+          <div className="flex items-center justify-center gap-3 pt-2">
+            <span className="relative flex h-3 w-3">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+            </span>
+            <span className="text-muted-foreground text-sm">Available for New Projects</span>
+          </div>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <Button size="lg" className="group" asChild>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
+            <LiquidButton size="xl" asChild>
               <Link to="/projects">
                 View My Work
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
-            </Button>
-            <Button size="lg" variant="outline" asChild>
+            </LiquidButton>
+            <LiquidButton size="xl" variant="outline" asChild>
               <Link to="/contact">
                 Get In Touch
               </Link>
-            </Button>
+            </LiquidButton>
           </div>
           
           <div className="flex gap-6 justify-center pt-12">
