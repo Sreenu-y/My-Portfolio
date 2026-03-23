@@ -42,17 +42,17 @@ const Hero = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-            <LiquidButton size="xl" asChild>
-              <Link to="/projects">
+            <Link to="/projects">
+              <LiquidButton size="xl">
                 View My Work
-                <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Link>
-            </LiquidButton>
-            <LiquidButton size="xl" variant="outline" asChild>
-              <Link to="/contact">
+                <ArrowRight className="ml-1 h-4 w-4" />
+              </LiquidButton>
+            </Link>
+            <Link to="/contact">
+              <LiquidButton size="xl" variant="outline">
                 Get In Touch
-              </Link>
-            </LiquidButton>
+              </LiquidButton>
+            </Link>
           </div>
           
           <div className="flex gap-6 justify-center pt-12">
