@@ -33,13 +33,7 @@ const Hero = () => {
             Building full-stack web applications with MongoDB, Express, React, and Node.js. Strong foundation in Data Structures & Algorithms with Java.
           </p>
 
-          <div className="flex items-center justify-center gap-3 pt-2">
-            <span className="relative flex h-3 w-3">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
-            </span>
-            <span className="text-muted-foreground text-sm">Available for New Projects</span>
-          </div>
+        
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Link to="/projects">
